@@ -11,6 +11,7 @@
 		98647CBA29CD088200D06092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98647CB929CD088200D06092 /* Assets.xcassets */; };
 		98647CBD29CD088200D06092 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98647CBC29CD088200D06092 /* Preview Assets.xcassets */; };
 		98647CC429CD0A6E00D06092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98647CC329CD0A6E00D06092 /* SceneDelegate.swift */; };
+		98647CC629CD0C9100D06092 /* CardScannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98647CC529CD0C9100D06092 /* CardScannerViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		98647CB929CD088200D06092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98647CBC29CD088200D06092 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		98647CC329CD0A6E00D06092 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		98647CC529CD0C9100D06092 /* CardScannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScannerViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				98647CB529CD088000D06092 /* CardScannerApp.swift */,
 				98647CC329CD0A6E00D06092 /* SceneDelegate.swift */,
+				98647CC529CD0C9100D06092 /* CardScannerViewController.swift */,
 				98647CB929CD088200D06092 /* Assets.xcassets */,
 				98647CBB29CD088200D06092 /* Preview Content */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				98647CB629CD088000D06092 /* CardScannerApp.swift in Sources */,
 				98647CC429CD0A6E00D06092 /* SceneDelegate.swift in Sources */,
+				98647CC629CD0C9100D06092 /* CardScannerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
