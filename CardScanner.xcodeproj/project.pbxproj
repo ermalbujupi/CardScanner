@@ -8,17 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		98647CB629CD088000D06092 /* CardScannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98647CB529CD088000D06092 /* CardScannerApp.swift */; };
-		98647CB829CD088000D06092 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98647CB729CD088000D06092 /* ContentView.swift */; };
 		98647CBA29CD088200D06092 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98647CB929CD088200D06092 /* Assets.xcassets */; };
 		98647CBD29CD088200D06092 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 98647CBC29CD088200D06092 /* Preview Assets.xcassets */; };
+		98647CC429CD0A6E00D06092 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98647CC329CD0A6E00D06092 /* SceneDelegate.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		98647CB229CD088000D06092 /* CardScanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardScanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		98647CB529CD088000D06092 /* CardScannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardScannerApp.swift; sourceTree = "<group>"; };
-		98647CB729CD088000D06092 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		98647CB929CD088200D06092 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		98647CBC29CD088200D06092 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		98647CC329CD0A6E00D06092 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,7 +52,7 @@
 			isa = PBXGroup;
 			children = (
 				98647CB529CD088000D06092 /* CardScannerApp.swift */,
-				98647CB729CD088000D06092 /* ContentView.swift */,
+				98647CC329CD0A6E00D06092 /* SceneDelegate.swift */,
 				98647CB929CD088200D06092 /* Assets.xcassets */,
 				98647CBB29CD088200D06092 /* Preview Content */,
 			);
@@ -137,8 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				98647CB829CD088000D06092 /* ContentView.swift in Sources */,
 				98647CB629CD088000D06092 /* CardScannerApp.swift in Sources */,
+				98647CC429CD0A6E00D06092 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,7 +270,6 @@
 				DEVELOPMENT_TEAM = F76TDF8BSD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
@@ -299,7 +298,6 @@
 				DEVELOPMENT_TEAM = F76TDF8BSD;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
