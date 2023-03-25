@@ -11,11 +11,9 @@ import SwiftUI
 @main
 struct CardScannerApp: App {
     
-    @UIApplicationDelegateAdaptor(  SceneDelegate.self) var appDelegate
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
     
     var body: some Scene {
-        WindowGroup {
-            Text("Card Scanner")
-        }
+        WindowGroup {}
     }
 }
